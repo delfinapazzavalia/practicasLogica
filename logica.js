@@ -216,7 +216,3 @@
 //}
 
 
-
-//4.3.2. Se ingresan N valores numéricos. Se desea saber cuántos son positivos, cuántos negativos y
-//cuántos iguales a cero.
-
