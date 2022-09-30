@@ -202,17 +202,124 @@
 
 //4.3.1. Ingresar N números, presentar por pantalla el promedio de ellos.
 
-//numero = [8, 9]
+//let i = 0;
+//let total = 0;
+//let N = prompt("cantidad de numeros a promediar")
 //
-//suma = numero [0] + numero [1]
-//promedio = suma / 2
+//while(i < N){
+//    let numero = prompt("ingresar numero");
+//    let num = parseInt(numero)
+//    total = total + num;
+//    i = i + 1;
+//}
+//
+//let promedio = total / N;
+//alert(promedio)
+
+//let i = 0;
+//let total = 0;
+//let N = 3;
+//
+//while(i < N){
+//    let numero = prompt("ingresar numero");
+//    let num = parseInt(numero);
+//    total = total + num;
+//    i = i + 1;
+//}
+//
+//let promedio = total / N;
 //
 //document.write(promedio)
 
-//let promediar = [8, 9, 7];
+//4.3.2. Se ingresan N valores numéricos. Se desea saber cuántos son positivos, cuántos negativos y
+//cuántos iguales a cero.
+
+//let i = 0;
+//let N = 6;
+//let positivos = 0;
+//let negativos = 0;
+//let cero = 0;
 //
-//for (let i = 0; i < 1; i++){
-//    document.write(promediar)
+//while(i<N){
+//    let numero = prompt("ingresar numero");
+//    let num = parseInt(numero);
+//    if (num>0){
+//        positivos = positivos + 1;
+//    }
+//    else if(num<0){
+//        negativos = negativos + 1;
+//    }
+//    else{
+//        cero = cero + 1;
+//    }
+//    i = i +1;
 //}
+//
+//document.write(`Numeros positivos: ${positivos}, <br> Numeros negativos: ${negativos}, <br> Numeros iguales a 0: ${cero}`)
+
+//Tarea #5
+//1. Un juego consiste en tirar un dado y sumar sus puntos hasta que el valor obtenido en un tiro
+//sea par. Diseñar un algoritmo que pida el valor del tiro y presente por pantalla la cantidad de
+//tiros y el puntaje total, sin contar el último tiro.
 
 
+let i = 0;
+let tiros = 0;
+let total = 0;
+let N = 100;
+
+while(i < N){
+    let numero = prompt("ingresar numero");
+    let num = parseInt(numero);
+
+}
+
+
+
+//1. Ingresar N números, presentar por pantalla el promedio de ellos.
+
+//let i = 0;
+//let total = 0;
+//let N = prompt("cantidad de numeros a promediar")
+//
+//while(i < N){
+//    let numero = prompt("ingresar numero");
+//    let num = parseInt(numero)
+//    total = total + num;
+//    i = i + 1;
+//}
+//
+//let promedio = total / N;
+//alert(promedio)
+
+//let i = 0;
+//let total = 0;
+//let N = 3;
+//
+//while(i < N){
+//    let numero = prompt("ingresar numero");
+//    let num = parseInt(numero);
+//    total = total + num;
+//    i = i + 1;
+//}
+//
+//let promedio = total / N;
+//
+//document.write(promedio)
+
+//Tarea #6
+//1. Evaluar:
+//a) 15 + 5 >= 20 / 1 and false
+//   15 + 5 >= 20 and false
+//   20 >= 20 and false
+//   20 >= 20 and false
+//   true and false
+//   false
+
+
+//b) true or false and !(20 + 2 < 5)
+//   true or false and !(22 < 5)
+//   true or false and !false
+//   true and !false
+//   true and true
+//   true
