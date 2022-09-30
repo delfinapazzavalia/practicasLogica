@@ -271,41 +271,21 @@ let N = 100;
 while(i < N){
     let numero = prompt("ingresar numero");
     let num = parseInt(numero);
+    i++;
+    tiros = tiros + 1;
 
+    if(valor%2!=0){
+
+      total = total + num;  
+
+    } else if (valor%2==0){
+        
+        break
+    }
 }
 
+document.write(`Cantidad de tiros: ${tiros}, puntaje total: ${total}`)
 
-
-//1. Ingresar N números, presentar por pantalla el promedio de ellos.
-
-//let i = 0;
-//let total = 0;
-//let N = prompt("cantidad de numeros a promediar")
-//
-//while(i < N){
-//    let numero = prompt("ingresar numero");
-//    let num = parseInt(numero)
-//    total = total + num;
-//    i = i + 1;
-//}
-//
-//let promedio = total / N;
-//alert(promedio)
-
-//let i = 0;
-//let total = 0;
-//let N = 3;
-//
-//while(i < N){
-//    let numero = prompt("ingresar numero");
-//    let num = parseInt(numero);
-//    total = total + num;
-//    i = i + 1;
-//}
-//
-//let promedio = total / N;
-//
-//document.write(promedio)
 
 //Tarea #6
 //1. Evaluar:
